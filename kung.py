@@ -14,9 +14,9 @@ while play_game.upper() == "J":
         player_two_score += 1
     else:
         print(f"ingen spelare vinner, det är oavgjort med tärningstalet: {player_one_roll}")
-    if player_one_score == 1000:
+    if player_one_score == 10000:
         print(f"spelare ett van med {player_one_score} över {player_two_score}")
         play_game = "n"
-    elif player_two_score == 1000:
+    elif player_two_score == 10000:
         print(f"spelare två van med {player_two_score} över {player_one_score}")
         play_game = "n"
